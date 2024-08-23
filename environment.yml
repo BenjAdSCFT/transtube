@@ -1,0 +1,11 @@
+name: transtube
+channels:
+  - defaults
+dependencies:
+  - pip=24.0=py39h06a4308_0
+  - python=3.9.19=h955ad1f_1
+  - pip:
+      - googletrans
+      - moviepy
+      - pysrt
+      - yt-dlp
